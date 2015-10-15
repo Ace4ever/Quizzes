@@ -1,0 +1,57 @@
+nav {
+	border: 2px solid black;
+}
+
+header > nav > a {
+	text-align: center;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    width: calc(100% / 3);
+}
+
+.disabled {
+	color: grey;
+}
+
+a > div > .disabled {
+	color: purple;
+}
+
+a > .disabled {
+	color: purple;
+}
+
+a > .footer-link > .disabled {
+	color: purple;
+}
+
+.active {
+	color: yellow;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: blue;
+}
+
+.red-background {
+	background-color: red;
+}
+
+.blue-background {
+	background-color: blue;
+}
+
+.grandparent > h4 {
+	border: 1px solid black;
+	border-radius: 10em;
+	padding: 5px;
+}
+

@@ -19,19 +19,22 @@ var fruit = [];
 
 var aNumber = 2;
 
-
 fruit.push("Bananas", "Apples", "Pineapple", "Avocado", "Peach", "Lemon", "Watermelon", "Olive", "Grape", "Cherry")
 
 console.log("fruit", fruit);
 
 for (var i = 0; i < fruit.length; i += 2) {
 	console.log(fruit[i]);
-	var changeLetter = fruit[i].replace("a", "e");
-	console.log("changeLetter", changeLetter);
+	var changedLetter = fruit[i].replace("a", "e");
+	changedLetter.split("");
+	console.log("changedLetter", changedLetter);
 
-	myString += changeLetter + ", ";
+	myString += "<div>" + changedLetter + "</div>";
 	console.log(myString);
 
-	var element = document.getElementById("fruit-list");
-	element.innerHTML = changeLetter;
 };
+
+	var element = document.getElementById("fruit-list");
+	element.innerHTML = myString;
+	console.log(element.innerHTML);
+

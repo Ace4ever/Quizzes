@@ -19,7 +19,6 @@ var fruit = [];
 
 var aNumber = 2;
 
-
 fruit.push("Bananas", "Apples", "Pineapple", "Avocado", "Peach", "Lemon", "Watermelon", "Olive", "Grape", "Cherry")
 
 console.log("fruit", fruit);

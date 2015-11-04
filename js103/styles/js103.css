@@ -1,0 +1,11 @@
+section:first-of-type {
+	font-weight: bold;
+}
+
+section:last-of-type {
+	font-style: italic;
+}
+
+button {
+	display: block;
+}
